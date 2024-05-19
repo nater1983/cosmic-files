@@ -36,12 +36,9 @@ clean-vendor:
 # `cargo clean` and removes vendored dependencies
 clean-dist: clean clean-vendor
 
-# Compiles with debug profile
-build-debug *args:
-    cargo build {{args}}
-
 # Compiles with release profile
-build-release *args: (build-debug '--release' args)
+build-release *args:
+    cargo build --release {{args}}
 
 # Compiles release profile with vendored dependencies
 build-vendored *args: vendor-extract (build-release '--frozen --offline' args)
