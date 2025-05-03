@@ -3925,7 +3925,7 @@ dependencies = [
 [[package]]
 name = "io-uring"
 version = "0.7.4"
-source = "git+https://github.com/tokio-rs/io-uring.git?rev=2c9010a3316519e02444f41e536623099af58a84#2c9010a3316519e02444f41e536623099af58a84"
+source = "git+https://github.com/tokio-rs/io-uring.git?rev=4181a8a78c4a76077da53047c29540a2dba8f5c7#4181a8a78c4a76077da53047c29540a2dba8f5c7"
 dependencies = [
  "bindgen",
  "bitflags 2.9.0",
