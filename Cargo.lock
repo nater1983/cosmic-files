@@ -3924,7 +3924,7 @@ dependencies = [
 
 [[package]]
 name = "io-uring"
-version = "0.7.4"
+version = "0.7.6"
 source = "git+https://github.com/tokio-rs/io-uring.git?rev=2c9010a3316519e02444f41e536623099af58a84#2c9010a3316519e02444f41e536623099af58a84"
 dependencies = [
  "bindgen",
